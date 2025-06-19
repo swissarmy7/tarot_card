@@ -1,0 +1,816 @@
+{
+  "major_arcana": [
+    {
+      "id": 0,
+      "name": "바보",
+      "name_en": "The Fool",
+      "meaning": "새로운 시작, 순수함, 모험, 자유로운 정신",
+      "reversed_meaning": "경솔함, 무모함, 어리석은 선택, 준비 부족",
+      "keywords": ["시작", "여행", "순수", "모험", "신뢰"],
+      "element": "공기",
+      "planet": "천왕성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/RWS_Tarot_00_Fool.jpg"
+    },
+    {
+      "id": 1,
+      "name": "마법사",
+      "name_en": "The Magician",
+      "meaning": "의지력, 창조력, 기술, 능력, 집중",
+      "reversed_meaning": "조작, 속임수, 능력 남용, 집중력 부족",
+      "keywords": ["의지", "창조", "기술", "능력", "집중"],
+      "element": "수성",
+      "planet": "수성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/RWS_Tarot_01_Magician.jpg"
+    },
+    {
+      "id": 2,
+      "name": "여사제",
+      "name_en": "The High Priestess",
+      "meaning": "직감, 신비, 내면의 지혜, 잠재의식",
+      "reversed_meaning": "직감 무시, 비밀의 노출, 내면의 혼란",
+      "keywords": ["직감", "신비", "지혜", "잠재의식", "여성성"],
+      "element": "달",
+      "planet": "달",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/RWS_Tarot_02_High_Priestess.jpg"
+    },
+    {
+      "id": 3,
+      "name": "여황제",
+      "name_en": "The Empress",
+      "meaning": "풍요, 창조성, 여성성, 자연, 양육",
+      "reversed_meaning": "의존성, 질투, 창조력 차단, 과보호",
+      "keywords": ["풍요", "창조", "여성성", "자연", "양육"],
+      "element": "금성",
+      "planet": "금성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/RWS_Tarot_03_Empress.jpg"
+    },
+    {
+      "id": 4,
+      "name": "황제",
+      "name_en": "The Emperor",
+      "meaning": "권위, 안정성, 질서, 리더십, 아버지의 권위",
+      "reversed_meaning": "독재, 경직성, 권위 남용, 통제 욕구",
+      "keywords": ["권위", "안정", "질서", "리더십", "남성성"],
+      "element": "양자리",
+      "planet": "화성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/RWS_Tarot_04_Emperor.jpg"
+    },
+    {
+      "id": 5,
+      "name": "교황",
+      "name_en": "The Hierophant",
+      "meaning": "전통, 종교, 교육, 영적 지도, 관습",
+      "reversed_meaning": "반항, 개인주의, 전통 거부, 도그마",
+      "keywords": ["전통", "종교", "교육", "영성", "관습"],
+      "element": "황소자리",
+      "planet": "금성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/RWS_Tarot_05_Hierophant.jpg"
+    },
+    {
+      "id": 6,
+      "name": "연인",
+      "name_en": "The Lovers",
+      "meaning": "사랑, 조화, 선택, 파트너십, 결합",
+      "reversed_meaning": "불화, 갈등, 잘못된 선택, 관계 문제",
+      "keywords": ["사랑", "조화", "선택", "파트너십", "결합"],
+      "element": "쌍둥이자리",
+      "planet": "수성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/TheLovers.jpg"
+    },
+    {
+      "id": 7,
+      "name": "전차",
+      "name_en": "The Chariot",
+      "meaning": "승리, 의지력, 결단력, 자제력, 진전",
+      "reversed_meaning": "좌절, 방향성 상실, 자제력 부족, 패배",
+      "keywords": ["승리", "의지", "결단", "자제", "진전"],
+      "element": "게자리",
+      "planet": "달",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/RWS_Tarot_07_Chariot.jpg"
+    },
+    {
+      "id": 8,
+      "name": "힘",
+      "name_en": "Strength",
+      "meaning": "용기, 인내, 자제력, 내면의 힘, 온화함",
+      "reversed_meaning": "약함, 자제력 부족, 분노, 폭력성",
+      "keywords": ["용기", "인내", "자제", "내면의 힘", "온화"],
+      "element": "사자자리",
+      "planet": "태양",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/RWS_Tarot_08_Strength.jpg"
+    },
+    {
+      "id": 9,
+      "name": "은둔자",
+      "name_en": "The Hermit",
+      "meaning": "성찰, 고독, 내면의 지혜, 영적 탐구, 인도",
+      "reversed_meaning": "고립, 완고함, 지혜 거부, 외로움",
+      "keywords": ["성찰", "고독", "지혜", "영성", "인도"],
+      "element": "처녀자리",
+      "planet": "수성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/RWS_Tarot_09_Hermit.jpg"
+    },
+    {
+      "id": 10,
+      "name": "운명의 수레바퀴",
+      "name_en": "Wheel of Fortune",
+      "meaning": "운명, 변화, 행운, 순환, 기회",
+      "reversed_meaning": "불운, 변화에 대한 저항, 통제 불가능",
+      "keywords": ["운명", "변화", "행운", "순환", "기회"],
+      "element": "목성",
+      "planet": "목성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/RWS_Tarot_10_Wheel_of_Fortune.jpg"
+    },
+    {
+      "id": 11,
+      "name": "정의",
+      "name_en": "Justice",
+      "meaning": "정의, 균형, 공정성, 법적 문제, 진실",
+      "reversed_meaning": "불공정, 편견, 법적 문제, 불균형",
+      "keywords": ["정의", "균형", "공정", "법", "진실"],
+      "element": "천칭자리",
+      "planet": "금성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/RWS_Tarot_11_Justice.jpg"
+    },
+    {
+      "id": 12,
+      "name": "매달린 자",
+      "name_en": "The Hanged Man",
+      "meaning": "희생, 인내, 새로운 관점, 정지, 깨달음",
+      "reversed_meaning": "자기중심적, 헛된 희생, 지연, 정체",
+      "keywords": ["희생", "인내", "관점", "정지", "깨달음"],
+      "element": "물",
+      "planet": "해왕성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/RWS_Tarot_12_Hanged_Man.jpg"
+    },
+    {
+      "id": 13,
+      "name": "죽음",
+      "name_en": "Death",
+      "meaning": "변화, 종료, 재생, 변환, 새로운 시작",
+      "reversed_meaning": "변화에 대한 저항, 정체, 두려움",
+      "keywords": ["변화", "종료", "재생", "변환", "시작"],
+      "element": "전갈자리",
+      "planet": "명왕성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/RWS_Tarot_13_Death.jpg"
+    },
+    {
+      "id": 14,
+      "name": "절제",
+      "name_en": "Temperance",
+      "meaning": "절제, 균형, 인내, 치유, 조화",
+      "reversed_meaning": "불균형, 과도함, 인내심 부족, 불화",
+      "keywords": ["절제", "균형", "인내", "치유", "조화"],
+      "element": "궁수자리",
+      "planet": "목성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/RWS_Tarot_14_Temperance.jpg"
+    },
+    {
+      "id": 15,
+      "name": "악마",
+      "name_en": "The Devil",
+      "meaning": "유혹, 속박, 중독, 물질주의, 욕망",
+      "reversed_meaning": "해방, 자유, 유혹 극복, 깨달음",
+      "keywords": ["유혹", "속박", "중독", "물질", "욕망"],
+      "element": "염소자리",
+      "planet": "토성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/RWS_Tarot_15_Devil.jpg"
+    },
+    {
+      "id": 16,
+      "name": "탑",
+      "name_en": "The Tower",
+      "meaning": "파괴, 급작스런 변화, 깨달음, 해방, 충격",
+      "reversed_meaning": "내적 변화, 점진적 변화, 개인적 변환",
+      "keywords": ["파괴", "변화", "깨달음", "해방", "충격"],
+      "element": "화성",
+      "planet": "화성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/RWS_Tarot_16_Tower.jpg"
+    },
+    {
+      "id": 17,
+      "name": "별",
+      "name_en": "The Star",
+      "meaning": "희망, 영감, 치유, 평화, 영성",
+      "reversed_meaning": "절망, 환멸, 희망 상실, 영적 공허",
+      "keywords": ["희망", "영감", "치유", "평화", "영성"],
+      "element": "물병자리",
+      "planet": "천왕성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/RWS_Tarot_17_Star.jpg"
+    },
+    {
+      "id": 18,
+      "name": "달",
+      "name_en": "The Moon",
+      "meaning": "환상, 직감, 꿈, 무의식, 혼란",
+      "reversed_meaning": "현실직시, 환상 극복, 명확성, 진실",
+      "keywords": ["환상", "직감", "꿈", "무의식", "혼란"],
+      "element": "물고기자리",
+      "planet": "해왕성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/RWS_Tarot_18_Moon.jpg"
+    },
+    {
+      "id": 19,
+      "name": "태양",
+      "name_en": "The Sun",
+      "meaning": "성공, 기쁨, 활력, 성취, 긍정",
+      "reversed_meaning": "일시적 실패, 지연된 성공, 과도한 자신감",
+      "keywords": ["성공", "기쁨", "활력", "성취", "긍정"],
+      "element": "태양",
+      "planet": "태양",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/RWS_Tarot_19_Sun.jpg"
+    },
+    {
+      "id": 20,
+      "name": "심판",
+      "name_en": "Judgement",
+      "meaning": "부활, 재생, 각성, 용서, 새로운 시작",
+      "reversed_meaning": "자기 의심, 가혹한 판단, 용서 부족",
+      "keywords": ["부활", "재생", "각성", "용서", "시작"],
+      "element": "명왕성",
+      "planet": "명왕성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/RWS_Tarot_20_Judgement.jpg"
+    },
+    {
+      "id": 21,
+      "name": "세계",
+      "name_en": "The World",
+      "meaning": "완성, 성취, 통합, 여행, 성공",
+      "reversed_meaning": "미완성, 지연, 목표 달성 실패",
+      "keywords": ["완성", "성취", "통합", "여행", "성공"],
+      "element": "토성",
+      "planet": "토성",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/RWS_Tarot_21_World.jpg"
+    }
+  ],
+  "minor_arcana": {
+    "wands": [
+      {
+        "id": 22,
+        "name": "완드 에이스",
+        "name_en": "Ace of Wands",
+        "meaning": "새로운 시작, 창조적 에너지, 영감, 잠재력",
+        "reversed_meaning": "지연, 좌절, 창조력 부족, 방향성 상실",
+        "suit": "완드",
+        "number": "에이스",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Wands01.jpg"
+      },
+      {
+        "id": 23,
+        "name": "완드 2",
+        "name_en": "Two of Wands",
+        "meaning": "계획, 미래 전망, 개인적 권력, 결정",
+        "reversed_meaning": "계획 부족, 두려움, 예상치 못한 지연",
+        "suit": "완드",
+        "number": "2",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Wands02.jpg"
+      },
+      {
+        "id": 24,
+        "name": "완드 3",
+        "name_en": "Three of Wands",
+        "meaning": "확장, 미래 계획, 리더십, 거래",
+        "reversed_meaning": "계획 실패, 지연, 협력 부족",
+        "suit": "완드",
+        "number": "3",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Wands03.jpg"
+      },
+      {
+        "id": 25,
+        "name": "완드 4",
+        "name_en": "Four of Wands",
+        "meaning": "축하, 안정, 가정의 행복, 성취",
+        "reversed_meaning": "불안정, 가정 문제, 지연된 축하",
+        "suit": "완드",
+        "number": "4",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Wands04.jpg"
+      },
+      {
+        "id": 26,
+        "name": "완드 5",
+        "name_en": "Five of Wands",
+        "meaning": "갈등, 경쟁, 도전, 다양한 의견",
+        "reversed_meaning": "내적 갈등, 갈등 회피, 협력",
+        "suit": "완드",
+        "number": "5",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Wands05.jpg"
+      },
+      {
+        "id": 27,
+        "name": "완드 6",
+        "name_en": "Six of Wands",
+        "meaning": "승리, 성공, 인정, 리더십",
+        "reversed_meaning": "지연된 성공, 자만심, 사적 성취",
+        "suit": "완드",
+        "number": "6",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Wands06.jpg"
+      },
+      {
+        "id": 28,
+        "name": "완드 7",
+        "name_en": "Seven of Wands",
+        "meaning": "방어, 도전에 맞서기, 인내, 경쟁",
+        "reversed_meaning": "항복, 압박감, 자신감 부족",
+        "suit": "완드",
+        "number": "7",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Wands07.jpg"
+      },
+      {
+        "id": 29,
+        "name": "완드 8",
+        "name_en": "Eight of Wands",
+        "meaning": "빠른 행동, 진전, 소식, 여행",
+        "reversed_meaning": "지연, 좌절, 급한 마음",
+        "suit": "완드",
+        "number": "8",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Wands08.jpg"
+      },
+      {
+        "id": 30,
+        "name": "완드 9",
+        "name_en": "Nine of Wands",
+        "meaning": "인내, 회복력, 마지막 노력, 경계",
+        "reversed_meaning": "포기, 좌절, 방어적 태도",
+        "suit": "완드",
+        "number": "9",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Wands09.jpg"
+      },
+      {
+        "id": 31,
+        "name": "완드 10",
+        "name_en": "Ten of Wands",
+        "meaning": "부담, 책임, 과로, 목표 달성",
+        "reversed_meaning": "부담 덜기, 책임 회피, 소진",
+        "suit": "완드",
+        "number": "10",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Wands10.jpg"
+      },
+      {
+        "id": 32,
+        "name": "완드 잭",
+        "name_en": "Page of Wands",
+        "meaning": "열정, 모험, 자유로운 정신, 소식",
+        "reversed_meaning": "조급함, 계획 부족, 좌절",
+        "suit": "완드",
+        "number": "잭",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Wands11.jpg"
+      },
+      {
+        "id": 33,
+        "name": "완드 기사",
+        "name_en": "Knight of Wands",
+        "meaning": "행동, 모험, 충동적, 열정적",
+        "reversed_meaning": "무모함, 성급함, 방향성 상실",
+        "suit": "완드",
+        "number": "기사",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Wands12.jpg"
+      },
+      {
+        "id": 34,
+        "name": "완드 퀸",
+        "name_en": "Queen of Wands",
+        "meaning": "자신감, 독립성, 결단력, 따뜻함",
+        "reversed_meaning": "질투, 이기적, 변덕스러움",
+        "suit": "완드",
+        "number": "퀸",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Wands13.jpg"
+      },
+      {
+        "id": 35,
+        "name": "완드 킹",
+        "name_en": "King of Wands",
+        "meaning": "리더십, 비전, 기업가 정신, 성취",
+        "reversed_meaning": "독재적, 무모함, 공격적",
+        "suit": "완드",
+        "number": "킹",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Wands14.jpg"
+      }
+    ],
+    "cups": [
+      {
+        "id": 36,
+        "name": "컵 에이스",
+        "name_en": "Ace of Cups",
+        "meaning": "새로운 사랑, 감정적 시작, 직감, 영감",
+        "reversed_meaning": "감정적 막힘, 사랑의 상실, 창조력 부족",
+        "suit": "컵",
+        "number": "에이스",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cups01.jpg"
+      },
+      {
+        "id": 37,
+        "name": "컵 2",
+        "name_en": "Two of Cups",
+        "meaning": "사랑, 파트너십, 조화, 연결",
+        "reversed_meaning": "관계 문제, 불화, 소통 부족",
+        "suit": "컵",
+        "number": "2",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Cups02.jpg"
+      },
+      {
+        "id": 38,
+        "name": "컵 3",
+        "name_en": "Three of Cups",
+        "meaning": "우정, 축하, 공동체, 기쁨",
+        "reversed_meaning": "과도한 사교, 가십, 외로움",
+        "suit": "컵",
+        "number": "3",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Cups03.jpg"
+      },
+      {
+        "id": 39,
+        "name": "컵 4",
+        "name_en": "Four of Cups",
+        "meaning": "명상, 재평가, 권태, 기회 놓침",
+        "reversed_meaning": "새로운 관심, 동기 부여, 깨달음",
+        "suit": "컵",
+        "number": "4",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Cups04.jpg"
+      },
+      {
+        "id": 40,
+        "name": "컵 5",
+        "name_en": "Five of Cups",
+        "meaning": "슬픔, 상실감, 후회, 실망",
+        "reversed_meaning": "회복, 용서, 앞으로 나아가기",
+        "suit": "컵",
+        "number": "5",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Cups05.jpg"
+      },
+      {
+        "id": 41,
+        "name": "컵 6",
+        "name_en": "Six of Cups",
+        "meaning": "향수, 어린 시절, 순수함, 과거",
+        "reversed_meaning": "과거에 매몰, 성숙, 미래 지향",
+        "suit": "컵",
+        "number": "6",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Cups06.jpg"
+      },
+      {
+        "id": 42,
+        "name": "컵 7",
+        "name_en": "Seven of Cups",
+        "meaning": "환상, 선택의 어려움, 꿈, 착각",
+        "reversed_meaning": "현실직시, 명확한 선택, 집중",
+        "suit": "컵",
+        "number": "7",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Cups07.jpg"
+      },
+      {
+        "id": 43,
+        "name": "컵 8",
+        "name_en": "Eight of Cups",
+        "meaning": "포기, 영적 탐구, 새로운 방향, 실망",
+        "reversed_meaning": "두려움, 정체, 포기 못함",
+        "suit": "컵",
+        "number": "8",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Cups08.jpg"
+      },
+      {
+        "id": 44,
+        "name": "컵 9",
+        "name_en": "Nine of Cups",
+        "meaning": "만족, 소원 성취, 행복, 성공",
+        "reversed_meaning": "자만심, 과도함, 공허한 성공",
+        "suit": "컵",
+        "number": "9",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Cups09.jpg"
+      },
+      {
+        "id": 45,
+        "name": "컵 10",
+        "name_en": "Ten of Cups",
+        "meaning": "행복한 가정, 감정적 만족, 조화, 성취",
+        "reversed_meaning": "가정 불화, 관계 문제, 가치관 충돌",
+        "suit": "컵",
+        "number": "10",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Cups10.jpg"
+      },
+      {
+        "id": 46,
+        "name": "컵 잭",
+        "name_en": "Page of Cups",
+        "meaning": "창조적 영감, 직감, 감수성, 소식",
+        "reversed_meaning": "감정적 미성숙, 현실도피, 실망",
+        "suit": "컵",
+        "number": "잭",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Cups11.jpg"
+      },
+      {
+        "id": 47,
+        "name": "컵 기사",
+        "name_en": "Knight of Cups",
+        "meaning": "로맨스, 매력, 예술성, 이상주의",
+        "reversed_meaning": "변덕스러움, 비현실적, 실망",
+        "suit": "컵",
+        "number": "기사",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Cups12.jpg"
+      },
+      {
+        "id": 48,
+        "name": "컵 퀸",
+        "name_en": "Queen of Cups",
+        "meaning": "직감, 동정심, 감정적 안정, 치유",
+        "reversed_meaning": "감정적 불안정, 의존성, 조작",
+        "suit": "컵",
+        "number": "퀸",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Cups13.jpg"
+      },
+      {
+        "id": 49,
+        "name": "컵 킹",
+        "name_en": "King of Cups",
+        "meaning": "감정적 균형, 동정심, 외교술, 관대함",
+        "reversed_meaning": "감정적 조작, 변덕, 냉담함",
+        "suit": "컵",
+        "number": "킹",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Cups14.jpg"
+      }
+    ],
+    "swords": [
+      {
+        "id": 50,
+        "name": "검 에이스",
+        "name_en": "Ace of Swords",
+        "meaning": "새로운 아이디어, 정신적 명확성, 진실, 승리",
+        "reversed_meaning": "혼란, 잘못된 정보, 창조력 부족",
+        "suit": "검",
+        "number": "에이스",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Swords01.jpg"
+      },
+      {
+        "id": 51,
+        "name": "검 2",
+        "name_en": "Two of Swords",
+        "meaning": "어려운 선택, 균형, 정체, 갈등",
+        "reversed_meaning": "결정, 명확성, 혼란 해결",
+        "suit": "검",
+        "number": "2",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Swords02.jpg"
+      },
+      {
+        "id": 52,
+        "name": "검 3",
+        "name_en": "Three of Swords",
+        "meaning": "슬픔, 배신, 상처, 이별",
+        "reversed_meaning": "치유, 용서, 회복",
+        "suit": "검",
+        "number": "3",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Swords03.jpg"
+      },
+      {
+        "id": 53,
+        "name": "검 4",
+        "name_en": "Four of Swords",
+        "meaning": "휴식, 명상, 회복, 평온",
+        "reversed_meaning": "소진, 불면, 재시작",
+        "suit": "검",
+        "number": "4",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Swords04.jpg"
+      },
+      {
+        "id": 54,
+        "name": "검 5",
+        "name_en": "Five of Swords",
+        "meaning": "갈등, 패배, 불명예, 이기심",
+        "reversed_meaning": "화해, 용서, 협력",
+        "suit": "검",
+        "number": "5",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Swords05.jpg"
+      },
+      {
+        "id": 55,
+        "name": "검 6",
+        "name_en": "Six of Swords",
+        "meaning": "전환, 여행, 평온한 시기, 회복",
+        "reversed_meaning": "저항, 정체, 과거에 매몰",
+        "suit": "검",
+        "number": "6",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Swords06.jpg"
+      },
+      {
+        "id": 56,
+        "name": "검 7",
+        "name_en": "Seven of Swords",
+        "meaning": "기만, 전략, 홀로 행동, 도둑질",
+        "reversed_meaning": "정직, 협력, 죄책감",
+        "suit": "검",
+        "number": "7",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Swords07.jpg"
+      },
+      {
+        "id": 57,
+        "name": "검 8",
+        "name_en": "Eight of Swords",
+        "meaning": "제약, 함정, 피해자 의식, 무력감",
+        "reversed_meaning": "자유, 해방, 자신감 회복",
+        "suit": "검",
+        "number": "8",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Swords08.jpg"
+      },
+      {
+        "id": 58,
+        "name": "검 9",
+        "name_en": "Nine of Swords",
+        "meaning": "불안, 악몽, 걱정, 절망",
+        "reversed_meaning": "희망, 회복, 걱정 해소",
+        "suit": "검",
+        "number": "9",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Swords09.jpg"
+      },
+      {
+        "id": 59,
+        "name": "검 10",
+        "name_en": "Ten of Swords",
+        "meaning": "배신, 끝, 파멸, 고통",
+        "reversed_meaning": "회복, 재생, 새로운 시작",
+        "suit": "검",
+        "number": "10",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Swords10.jpg"
+      },
+      {
+        "id": 60,
+        "name": "검 잭",
+        "name_en": "Page of Swords",
+        "meaning": "호기심, 정신적 민첩성, 소식, 감시",
+        "reversed_meaning": "가십, 거짓말, 정신적 혼란",
+        "suit": "검",
+        "number": "잭",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Swords11.jpg"
+      },
+      {
+        "id": 61,
+        "name": "검 기사",
+        "name_en": "Knight of Swords",
+        "meaning": "행동, 야망, 충동성, 결단력",
+        "reversed_meaning": "무모함, 공격성, 무계획",
+        "suit": "검",
+        "number": "기사",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Swords12.jpg"
+      },
+      {
+        "id": 62,
+        "name": "검 퀸",
+        "name_en": "Queen of Swords",
+        "meaning": "독립성, 직접적, 정직함, 명확한 소통",
+        "reversed_meaning": "냉담함, 비판적, 악의",
+        "suit": "검",
+        "number": "퀸",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Swords13.jpg"
+      },
+      {
+        "id": 63,
+        "name": "검 킹",
+        "name_en": "King of Swords",
+        "meaning": "권위, 지적 힘, 진실, 공정성",
+        "reversed_meaning": "독재적, 냉혹함, 판단력 부족",
+        "suit": "검",
+        "number": "킹",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Swords14.jpg"
+      }
+    ],
+    "pentacles": [
+      {
+        "id": 64,
+        "name": "펜타클 에이스",
+        "name_en": "Ace of Pentacles",
+        "meaning": "새로운 기회, 물질적 시작, 풍요, 잠재력",
+        "reversed_meaning": "기회 놓침, 탐욕, 물질적 손실",
+        "suit": "펜타클",
+        "number": "에이스",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Pents01.jpg"
+      },
+      {
+        "id": 65,
+        "name": "펜타클 2",
+        "name_en": "Two of Pentacles",
+        "meaning": "유연성, 균형, 적응, 다중 작업",
+        "reversed_meaning": "불균형, 우선순위 부족, 과부하",
+        "suit": "펜타클",
+        "number": "2",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Pents02.jpg"
+      },
+      {
+        "id": 66,
+        "name": "펜타클 3",
+        "name_en": "Three of Pentacles",
+        "meaning": "협력, 팀워크, 기술, 학습",
+        "reversed_meaning": "협력 부족, 갈등, 기술 부족",
+        "suit": "펜타클",
+        "number": "3",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Pents03.jpg"
+      },
+      {
+        "id": 67,
+        "name": "펜타클 4",
+        "name_en": "Four of Pentacles",
+        "meaning": "안정성, 보수적, 통제, 저축",
+        "reversed_meaning": "탐욕, 인색함, 과도한 통제",
+        "suit": "펜타클",
+        "number": "4",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Pents04.jpg"
+      },
+      {
+        "id": 68,
+        "name": "펜타클 5",
+        "name_en": "Five of Pentacles",
+        "meaning": "재정적 어려움, 고립, 건강 문제, 영적 빈곤",
+        "reversed_meaning": "회복, 도움 받기, 재정 안정",
+        "suit": "펜타클",
+        "number": "5",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Pents05.jpg"
+      },
+      {
+        "id": 69,
+        "name": "펜타클 6",
+        "name_en": "Six of Pentacles",
+        "meaning": "관대함, 나눔, 자선, 균형",
+        "reversed_meaning": "이기심, 일방적 관계, 부채",
+        "suit": "펜타클",
+        "number": "6",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Pents06.jpg"
+      },
+      {
+        "id": 70,
+        "name": "펜타클 7",
+        "name_en": "Seven of Pentacles",
+        "meaning": "평가, 인내, 투자, 장기적 목표",
+        "reversed_meaning": "조급함, 투자 실패, 인내 부족",
+        "suit": "펜타클",
+        "number": "7",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Pents07.jpg"
+      },
+      {
+        "id": 71,
+        "name": "펜타클 8",
+        "name_en": "Eight of Pentacles",
+        "meaning": "숙련, 노력, 기술 향상, 근면",
+        "reversed_meaning": "완벽주의, 기술 부족, 단조로움",
+        "suit": "펜타클",
+        "number": "8",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Pents08.jpg"
+      },
+      {
+        "id": 72,
+        "name": "펜타클 9",
+        "name_en": "Nine of Pentacles",
+        "meaning": "독립성, 풍요, 자급자족, 성취",
+        "reversed_meaning": "의존성, 재정적 불안정, 과시",
+        "suit": "펜타클",
+        "number": "9",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Pents09.jpg"
+      },
+      {
+        "id": 73,
+        "name": "펜타클 10",
+        "name_en": "Ten of Pentacles",
+        "meaning": "가족 재산, 유산, 안정성, 전통",
+        "reversed_meaning": "재정적 불안정, 가족 갈등, 손실",
+        "suit": "펜타클",
+        "number": "10",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Pents10.jpg"
+      },
+      {
+        "id": 74,
+        "name": "펜타클 잭",
+        "name_en": "Page of Pentacles",
+        "meaning": "학습, 기회, 현실적, 계획",
+        "reversed_meaning": "게으름, 비현실적 꿈, 기회 놓침",
+        "suit": "펜타클",
+        "number": "잭",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Pents11.jpg"
+      },
+      {
+        "id": 75,
+        "name": "펜타클 기사",
+        "name_en": "Knight of Pentacles",
+        "meaning": "근면, 책임감, 인내, 신뢰성",
+        "reversed_meaning": "게으름, 완고함, 진전 부족",
+        "suit": "펜타클",
+        "number": "기사",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Pents12.jpg"
+      },
+      {
+        "id": 76,
+        "name": "펜타클 퀸",
+        "name_en": "Queen of Pentacles",
+        "meaning": "실용성, 양육, 풍요, 안정",
+        "reversed_meaning": "물질주의, 질투, 불안정",
+        "suit": "펜타클",
+        "number": "퀸",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Pents13.jpg"
+      },
+      {
+        "id": 77,
+        "name": "펜타클 킹",
+        "name_en": "King of Pentacles",
+        "meaning": "성공, 풍요, 리더십, 안정성",
+        "reversed_meaning": "탐욕, 완고함, 부패, 물질주의",
+        "suit": "펜타클",
+        "number": "킹",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Pents14.jpg"
+      }
+    ]
+  }
+}
